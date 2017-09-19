@@ -1,0 +1,20 @@
+{
+  "name": "jest-named-export-function-name-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lewis Liu <lewisl9029@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "NODE_ENV=development webpack"
+  },
+  "devDependencies": {
+    "babel-jest": "^21.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react-app": "^3.0.2",
+    "jest": "^21.1.0",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {}
+}
